@@ -308,7 +308,7 @@ def execute(args):
 
     # Set default threshold
     if 'thresh' not in args:
-        args['thresh'] = 10
+        args['thresh'] = 30
 
     if query_type == 'iso':
         return _executeIso(args)
